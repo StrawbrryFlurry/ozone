@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="MediatR.Contracts"/>
+    <PackageReference Include="Microsoft.Extensions.Options"/>
+    <PackageReference Include="Microsoft.Extensions.Primitives"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ozone.Common.Domain\Ozone.Common.Domain.csproj"/>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\Ozone.Common.Testing.Domain\Ozone.Common.Testing.Domain.csproj"/>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,29 @@
+﻿<Project>
+  <!-- Framework and Language config -->
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <!-- Build config -->
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <!--  <TreatWarningsAsErrors>true</TreatWarningsAsErrors> -->
+    <!--  <NoWarn>$(NoWarn),NU1701,1573,1591,1712,0219</NoWarn> -->
+  </PropertyGroup>
+
+  <!-- Language features config -->
+  <PropertyGroup>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <!-- Global package references -->
+  <ItemGroup>
+  </ItemGroup>
+
+  <!-- Misc config -->
+  <ItemGroup>
+    <None Remove="README.md"/>
+  </ItemGroup>
+</Project>

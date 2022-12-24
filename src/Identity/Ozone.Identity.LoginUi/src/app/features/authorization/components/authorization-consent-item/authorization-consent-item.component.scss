@@ -1,0 +1,8 @@
+.expansion-panel {
+  background-color: transparent;
+  box-shadow: none;
+
+  > .mat-expansion-panel-header {
+    padding-left: 1rem;
+  }
+}

@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Ozone.Common.Persistence\Ozone.Common.Persistence.csproj"/>
+    <ProjectReference Include="..\Ozone.Identity.Domain\Ozone.Identity.Domain.csproj"/>
+  </ItemGroup>
+</Project>

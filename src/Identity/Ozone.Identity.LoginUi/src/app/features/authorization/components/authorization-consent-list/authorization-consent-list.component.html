@@ -1,0 +1,7 @@
+<p class="scope-title">This app would like to have access to:</p>
+<ng-container *ngFor="let scope of authorizationScopes">
+  <oz-identity-authorization-consent-item
+    [name]="scope.name"
+    [description]="scope.description"
+  ></oz-identity-authorization-consent-item>
+</ng-container>

@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ozone.Common.Api\Ozone.Common.Api.csproj"/>
+    <ProjectReference Include="..\Ozone.Common.Infrastructure\Ozone.Common.Infrastructure.csproj"/>
+  </ItemGroup>
+</Project>

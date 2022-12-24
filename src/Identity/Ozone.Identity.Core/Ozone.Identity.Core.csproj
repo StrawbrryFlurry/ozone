@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection"/>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions"/>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions"/>
+    <PackageReference Include="Microsoft.Extensions.Primitives"/>
+    <PackageReference Include="Microsoft.IdentityModel.Tokens"/>
+    <PackageReference Include="Newtonsoft.Json"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="EnterpriseApplication\Commands"/>
+    <Folder Include="EnterpriseApplication\Queries"/>
+    <Folder Include="Identity\Commands"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Ozone.Common.Core\Ozone.Common.Core.csproj"/>
+    <ProjectReference Include="..\Ozone.Identity.Domain\Ozone.Identity.Domain.csproj"/>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,46 @@
+@mixin apply-theme {
+  :root {
+    --primary: #f00044;
+
+    --primary-900: #c30028;
+    --primary-800: #d10035;
+    --primary-700: #de003d;
+    --primary-600: #f00044;
+    --primary-500: #ff1646;
+    --primary-400: #f83e5e;
+    --primary-300: #eb697d;
+    --primary-200: #f295a2;
+    --primary-100: #ffcbd7;
+    --primary-50: #ffeaf0;
+
+    --accent: #00f0ac;
+
+    --accent-900: #008944;
+    --accent-800: #00aa5c;
+    --accent-700: #00bd69;
+    --accent-600: #00d178;
+    --accent-500: #00e284;
+    --accent-400: #00ea97;
+    --accent-300: #00f0ac;
+    --accent-200: #80f4c5;
+    --accent-100: #b7f8dc;
+    --accent-50: #e2fdf1;
+
+    --surface: #06090f;
+    --surface-on-background: #13161b;
+    --surface-weak: #181a20;
+    --surface-weaker: #24272c;
+
+    --on-surface: #eceded;
+    --on-surface-weak: #e0e1e1;
+    --on-surface-strong: #fff;
+    --on-surface-hint: #f5f5f5;
+    --on-surface-disabled: #a1a2a4;
+
+    --danger-foreground: #b45153;
+    --danger-background: #d13438;
+
+    --success-foreground: #649766;
+    --success-background: #4caf50;
+  }
+}

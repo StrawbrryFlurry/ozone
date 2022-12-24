@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Ozone.Common.Domain\Ozone.Common.Domain.csproj"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Auth\Services"/>
+    <Folder Include="Security\Repositories"/>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,18 @@
+<ng-container *ngIf="authorizationRequest | async as request; else loading">
+  <oz-identity-authorization-consent-info
+    class="consent-info"
+    [applicationDescription]="request.clientDescription"
+    [applicationName]="request.clientName"
+    [username]="request.username"
+  ></oz-identity-authorization-consent-info>
+  <oz-identity-authorization-consent-list
+    class="consent-list"
+    [authorizationScopes]="request.scopes"
+  ></oz-identity-authorization-consent-list>
+  <oz-identity-authorization-consent-buttons
+    class="consent-buttons"
+    (forbid)="onForbid(request)"
+    (consent)="onConsent(request)"
+  ></oz-identity-authorization-consent-buttons>
+</ng-container>
+<ng-template #loading> loading... </ng-template>

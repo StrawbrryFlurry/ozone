@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Identity\Ozone.Identity.Domain\Ozone.Identity.Domain.csproj"/>
+    <ProjectReference Include="..\..\Common\Ozone.Common.Testing.Domain\Ozone.Common.Testing.Domain.csproj"/>
+  </ItemGroup>
+</Project>
