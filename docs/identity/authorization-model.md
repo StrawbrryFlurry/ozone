@@ -127,14 +127,14 @@ Services may need to call other APIs on behalf of the user. In those case, servi
 ```mermaid
 sequenceDiagram
     participant Client
-    participant Client-API
+    participant ClientAPI
     participant IdP
     participant Resource
 
-    Client->>Client-API: Action Request
-    Client-API->>IdP: POST /token
-    IdP->>Client-API: Returns resource access token
-    Client-API->>Resource: Request resource
-    Resource->>Client-API: Resource Response
-    Client-API->>Client: Action Response
+    Client->>ClientAPI: Action Request
+    ClientAPI->>IdP: POST /token
+    IdP->>ClientAPI: Returns resource access token
+    ClientAPI->>Resource: Request resource
+    Resource->>ClientAPI: Resource Response
+    ClientAPI->>Client: Action Response
 ```
